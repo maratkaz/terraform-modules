@@ -6,13 +6,12 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.2 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 3.52.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.52.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
 
@@ -22,10 +21,10 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aws_iam_service_linked_role.autoscaling](https://registry.terraform.io/providers/hashicorp/aws/3.52.0/docs/resources/iam_service_linked_role) | resource |
-| [aws_kms_alias.kms_deployment_key](https://registry.terraform.io/providers/hashicorp/aws/3.52.0/docs/resources/kms_alias) | resource |
-| [aws_kms_key.kms_deployment_key](https://registry.terraform.io/providers/hashicorp/aws/3.52.0/docs/resources/kms_key) | resource |
-| [aws_caller_identity.account](https://registry.terraform.io/providers/hashicorp/aws/3.52.0/docs/data-sources/caller_identity) | data source |
+| [aws_iam_service_linked_role.autoscaling](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_service_linked_role) | resource |
+| [aws_kms_alias.kms_deployment_key](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/kms_alias) | resource |
+| [aws_kms_key.kms_deployment_key](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/kms_key) | resource |
+| [aws_caller_identity.account](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity) | data source |
 
 ## Inputs
 
