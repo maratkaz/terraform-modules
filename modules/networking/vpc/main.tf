@@ -6,7 +6,7 @@ locals {
 }
 
 module "vpc" {
-  source  = "terraform-aws-modules/vpc/aws"
+  source = "terraform-aws-modules/vpc/aws"
   # version = "3.14.2"
 
   name                               = "${var.deployment_prefix}-vpc"
